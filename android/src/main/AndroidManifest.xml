@@ -1,3 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="nl.underkoen.stripe_ideal">
+package="nl.underkoen.stripe_ideal">
+<application>
+    <activity android:label="Payment" android:name=".StripeIdealPlugin$PaymentActivity"  />
+</application>
 </manifest>
